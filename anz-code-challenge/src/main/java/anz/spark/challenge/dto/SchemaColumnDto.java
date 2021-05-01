@@ -15,7 +15,7 @@ public class SchemaColumnDto
 	 * SchemaColumnDto class constructor
 	 *
 	 */
-	SchemaColumnDto(String name, String type, boolean mandatory, String format)
+	public SchemaColumnDto(String name, String type, boolean mandatory, String format)
 	{
 		this.name=name;
 		this.type=type;
